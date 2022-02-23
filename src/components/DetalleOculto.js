@@ -84,6 +84,7 @@ const Contenido = styled.div`
   background: #e6e6e6;
   box-shadow:  -24px 24px 48px #adadad,
               24px -24px 48px #ffffff;
+              
 
   @media screen and (max-width:810px) {
     width: 90%;
