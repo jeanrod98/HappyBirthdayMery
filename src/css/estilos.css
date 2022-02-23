@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+.inicio {
+  /* background: red; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  justify-content: space-between;
+ 
+}
+.seccion-fecha{
+  /* background: red; */
+  margin-top: 15px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seccion-fecha ion-icon{
+  font-size: 40px !important;
+  color: rgba(99, 62, 184, 0.753) !important;
+  
+}
+.seccion-fecha ion-icon:hover{
+  color: rgb(61, 24, 146) !important;
+  cursor: pointer;
+}
+
+.imagen-input {
+  /* background: rgb(133, 36, 36); */
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+
+
+  
+}
+.imagen-input img {
+  width: 100px;
+  height: auto;
+  
+  
+}
+.input-fecha{
+  
+  padding: 5px;
+  border: 1px solid rgb(228, 118, 228);
+  border-radius: 10px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  background: rgb(228, 118, 228);
+  color: #fff;
+  
+
+}
+.input-fecha:focus{
+  outline: none;
+  
+}
+.aviso{
+  margin-top: 10px;
+  color: rgb(170, 170, 170);
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+}
+.flores {
+ 
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+.flor-1{
+
+  width: 200px;
+  height: 200px;
+
+
+} 
+.flor-2 {
+ 
+  width: 200px;
+  height: 200px;
+  transform: scaleX(-1);
+  /* transform: scaleY(-1); */
+  /* transform: rotate(-10deg); */
+}
+
+.curvas-footer{
+ 
+      display: flex;
+      flex-direction: column;
+ 
+}
+.letraM{
+  
+  z-index: 2;
+  width: 200px;
+
+}
+
+/* ESTILOS PARA LA HOJA 1 */
+.Hoja1{
+  height: 100vh;
+  background-image: url('../image/fondo.jpg');
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.letter{
+  /* background: rgb(187, 65, 65); */
+  position: absolute;
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.letter img{
+  width: 95%;
+}
+
+
+.letter img:hover{
+  /* #eebfeb */
+    box-shadow:  0px 0px 10px 10px #860909; /* change to alter the effect*/
+    cursor: pointer;
+  /* width: 100%; */
+  transition:  box-shadow .5s;
+}
+/* Para hacer responsiva la pagina  */
+@media screen and (max-width:800px) {
+  .flor-1{
+   
+    width: 150px;
+    height: 150px;
+ 
+  } 
+  .flor-2 {
+   
+    width: 150px;
+    height: 150px;
+    
+  }
+  
+  /* .letter{
+    width: 20%;
+  } */
+
+}
