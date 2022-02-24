@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Routes>
       {/* happyBirthdayMaria */}
-        <Route path="/"  element={<Inicio/>} />
+        <Route path="/HappyBirthdayMery"  element={<Inicio/>} />
         <Route path="/24021979"  element={<Hoja_1/>} />
         <Route path="/detalleOculto"  element={<DetalleOculto/>} />
       </Routes>
